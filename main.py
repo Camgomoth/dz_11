@@ -213,5 +213,41 @@ class AddressBook(UserDict):
                 return f'Contact has been removed succesfully {self.data}'
 
         return f"Something went wrong"
+
+
+#Приклади викликів(правильних)
+
+# book = AddressBook()
+
+# jane_record = Record("Jane", "11.06 ")
+# jane_record.add_phone("9876543210")
+# print(jane_record.days_to_birthday())
+# jane_record.add_phone("1234567890")
+# book.add_record(jane_record)
+
+# john_record = Record("John")
+# john_record.add_phone("1234567890")
+# john_record.add_phone("5555555555")   
+
+# book.add_record(john_record)
+
+# sue_record = Record("Sue")
+# sue_record.add_phone("1234567890")
+# sue_record.add_phone("5555555555")   
+# book.add_record(sue_record)
+
+# helen_record = Record("Helen")
+# helen_record.add_phone("1234567890")
+# helen_record.add_phone("5555555555")   
+# book.add_record(helen_record)
+
+# print(book.iterator(2))
+# print(book.iterator(2))
+
+
+
+
+
+
     
 
